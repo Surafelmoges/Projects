@@ -1,6 +1,10 @@
-body{
+*{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body{
     background: #efefef;
 }
 nav{
@@ -157,4 +161,22 @@ nav{
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 10px rgb(0, 0, 0.1);
+}
+.event p{
+    font-size: 12px;
+}
+.event a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #1876f2;
+}
+.left-event span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #1876f2;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 0;
 }
