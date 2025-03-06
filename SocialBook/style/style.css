@@ -137,8 +137,8 @@ nav{
     margin-bottom: 18px;
 
 }
-.sidebar-title h4{
-    font-family: bold;
+.rght-side-bar h4{
+    font-weight: 600;
     font-size: 16px;
 }
 .sidebar-title a{
@@ -191,3 +191,39 @@ nav{
     align-items: center;
     margin-bottom: 20px;
 }
+.online-list .online img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.online-list .online {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.online-list .online::after{
+    top: unset;
+    bottom: 5px;
+    }
+    .story-gallery{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .story{
+        flex-basis: 18%;
+        padding-top: 32%;
+        position: relative;
+        background-image: url(../images/images/status-1.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .story img{
+        position: absolute;
+        width: 45px;
+        border-radius: 50%;
+        left: 10px;
+        top: 10px;
+        border-radius: 5px solid #626262;
+    }
