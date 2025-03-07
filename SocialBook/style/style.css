@@ -263,3 +263,41 @@ nav{
         border: 0;
         width: 35px;
     }
+    .write-post-containor{
+        width: 100%;
+        background: #fff;
+        border-radius: 7px;
+        padding: 20px;
+        color: #626262;
+    }
+    .user-profile{
+        display: flex;
+        align-items: center;
+    }
+    .user-profile img{
+        width: 40px;
+        border-radius: 50%;
+
+    }
+    .user-profile p{
+        margin-bottom: -5px;
+        font-weight: 500;
+        color: #626262;
+    }
+    .user-profile small{
+        font-size: 12px;
+    }
+    .status{
+        margin-left: 8px;
+    }
+    .post-input-conta{
+        padding-left: 55px;
+        padding-top: 20px;
+    }
+    .post-input-conta textarea{
+        width: 100%;
+        border: none;
+        outline: 0;
+        border-bottom: 1px solid #ccc;
+        background: transparent;
+    }
