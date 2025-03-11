@@ -394,15 +394,20 @@ nav{
     }
     .seting-menu{
         position: absolute;
-        width: 90%;
+        width: 23%;
         max-width: 350px;
         background: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
         border-radius: 7px;
+        overflow: hidden;
         top: 108%;
         right: 5%;
-    
-    }
+        max-height: 0;
+        transition: max-height 0.3s;
+     }
+     .seting-menu-height{
+        max-height: 450px;
+     }
     .seting-menu a{
         text-decoration: none;
         color: #1876f2;
@@ -436,4 +441,29 @@ nav{
         justify-content: space-between;
         text-decoration: none;
     }
+    #dark-btn{
+        position: absolute;
+        width: 45px;
+        background: #ccc;
+        top: 20px;
+        right: 20px;
+        border-radius: 14px;
+        padding: 2px 3px;
+        cursor: pointer;
+        display: flex;
+        transition: padding-left 0.3s, background 0.5s;
+        
+    }
+    #dark-btn span{
+        width: 18px;
+        height: 18px;
+        background: #fff;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #dark-btn.dark-btn-on{
+        padding-left: 23px;
+        background: #000;
+    }
+
 
