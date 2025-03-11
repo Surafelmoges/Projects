@@ -3,12 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --body-color: #efefef;
+    --nav-color: #1866f2;
+    --bg-color: #fff;
+}
+.dark-theme{
+    --body-color: #0a0a0a;
+    --nav-color: #000;
+    --bg-color: #000;
+}
 
 body{
-    background: #efefef;
+    background: var(--body-color);
+    transition: background 0.35s;
 }
 nav{
-    background: #1876f2;
+    background: var(--nav-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -92,7 +103,7 @@ nav{
     top: 70px;
     align-self: flex-start;
     padding: 20px;
-    background: #fff;
+    background: var(--bg-color);
     border-radius: 4px;
     color: #626262;
   
@@ -265,7 +276,7 @@ nav{
     }
     .write-post-containor{
         width: 100%;
-        background: #fff;
+        background: var(--bg-color);
         border-radius: 7px;
         padding: 20px;
         color: #626262;
@@ -320,7 +331,7 @@ nav{
     }
     .post-container{
         width: 100%;
-        background: #fff;
+        background: var(--bg-color);
         border-radius: 6px;
         padding: 20px;
         color: #626262;
@@ -396,7 +407,7 @@ nav{
         position: absolute;
         width: 23%;
         max-width: 350px;
-        background: #fff;
+        background: var(--bg-color);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
         border-radius: 7px;
         overflow: hidden;
@@ -463,7 +474,7 @@ nav{
     }
     #dark-btn.dark-btn-on{
         padding-left: 23px;
-        background: #000;
+        background: #0a0a0a;
     }
 
 
