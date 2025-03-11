@@ -396,7 +396,6 @@ nav{
         position: absolute;
         width: 90%;
         max-width: 350px;
-        height: 500px;
         background: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
         border-radius: 7px;
@@ -404,3 +403,37 @@ nav{
         right: 5%;
     
     }
+    .seting-menu a{
+        text-decoration: none;
+        color: #1876f2;
+        font-size: 12px;
+    }
+    .setting-inner-menu{
+        padding: 20px;
+    }
+    .seting-menu hr{
+        margin: 15px 0;
+        border: 0;
+        height: 1px;
+        background: #9a9a9a;
+       
+    }
+    .seting-link{
+        display: flex;
+        align-items: center;
+        
+    }
+    .seting-link .seting-img{
+        width: 38px;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+    .seting-link a{
+        color: #626262;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+
