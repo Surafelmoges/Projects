@@ -584,8 +584,8 @@ nav{
 .profile-intro hr{
     border: 0;
     height: 1px;
-    background:  #9a9a9a;
-    margin: 15px 21px;
+    background:  #ccc;
+    margin: 25px 0px;
 }
 .profile-intro ul li{
     list-style: none;
@@ -596,4 +596,44 @@ nav{
 .profile-intro ul li img{
     width: 25px;
     margin-right: 10px;
+}
+.title-inf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-inf a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 12px;
+}
+.photo-rows{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 15px;
+
+}
+.photo-rows div img{
+    width: 100%;
+    border-radius: 6px;
+}
+.friends-box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.friends-box div img{
+    width: 100%;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+.friends-box p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.friends-box div{
+    position: relative;
 }
