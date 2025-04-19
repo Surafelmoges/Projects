@@ -6,6 +6,10 @@
 body{
     background: #222;
 }
+.containor{
+    padding: 20px 10px;
+
+}
 .header{
     color: #fff;
     background-image: url('images/background.png');
@@ -15,6 +19,7 @@ body{
     height: 100vh;
     font-family: 'poppins', sans-serif;
    
+   
 }
 nav{
     display: flex;
@@ -22,6 +27,7 @@ nav{
     align-items: center;
     padding: 20px 50px;
     flex-wrap: wrap;
+    
 }
 .logo{
     width: 145px;
@@ -53,16 +59,15 @@ nav ul li a:hover::after{
     width: 100%;
 
 }
-.co p{
-    margin-top: 50px;
+.co{
+    margin-top: 20%;
     font-size: 30px;
-    color: #fff;
-    font-family: 'poppins', sans-serif;
+    padding: 0 50px;
 }
 .co h1{
-    margin-top: 50px;
     font-size: 60px;
     margin-top: 20px;
+    
 }
 .co h1 span{
     color: #f83d3ddc;
