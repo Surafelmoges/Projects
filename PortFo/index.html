@@ -38,27 +38,46 @@
                     <h1 class="title">About Me</h1>
                     <p>I'm Surafel, a Software Engineer and Oracle Database Administrator based in Ethiopia.
                      I work at Ahadu Bank, where I manage critical database systems and support the SWIFT team. 
-                     I'm also passionate about web development and currently on the path to becoming a Full-Stack Developer.
+                     I'm also passionate about web development and currently on the path to becoming
+                      a Full-Stack Developer.
                      Outside of work, I'm building projects like AddisGebya, creating content for YouTube, 
                      and always exploring new ways to grow as a developer and entrepreneur.</p>
 
                      <div class="tab-title">
-                        <div class="tab-link active-link"><p>Skills</p></div>
-                        <div class="tab-link"><p>Experience</p></div>
-                        <div class="tab-link"><p>Education</p></div>
+                        <div class="tab-link active-link" onclick="opentab('skills')"><p>Skills</p></div>
+                        <div class="tab-link" onclick="opentab('experience')"><p>Experience</p></div>
+                        <div class="tab-link" onclick="opentab('education')"><p>Education</p></div>
                         
                      </div>
-                     <div class="tab-content">
+                     <div class="tab-content active-tab" id="skills">
                         <ul>
                             <li><span>Web Development</span><br>FullStack Web Development</li>
                             <li><span>Database Administrator</span><br>Oracle Database Administration (DBA)</li>
                             <li><span>Graphics Designer</span><br>Build Pictures and Video Content</li>
                         </ul>
                      </div>
+                     <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Freelance web development</li>
+                            <li><span>2024 - Current</span><br>Database Administrator at Ahadu Bank</li>
+                            <li><span>2023 - 2024</span><br>System Administrator at TIMEBET Company</li>
+                        </ul>
+                     </div>
+                     
+
+                     <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2019 - 2022</span><br>Bachelor's Degree in Software Engineering on Deberemarkos university</li>
+                            <li><span>2025 - Currently</span><br>Master of Science in Information Technology (MSIT) on Florida university</li>
+                            <li><span>2025 - Currently</span><br>Learn From Youtube</li>
+                        </ul>
+                     </div>
+
 
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
