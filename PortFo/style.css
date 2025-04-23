@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'popins', sans-serif;
 }
 body{
     background: #000000;
+    color: #fff;
 }
 .container{
+    padding: 0 100px;
     
     
 }
 .header{
-    background-image: url(images/logoEl.jpg);
+    background-image: url(images/ella.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -94,6 +97,7 @@ nav ul li a:hover::after{
 .col-1 img{
     width: 85%;
     border-radius: 18px;
+    margin-left: 50px;
 }
 .col-2{
     flex-basis: 60%;
@@ -145,4 +149,14 @@ nav ul li a:hover::after{
 }
 .tab-content.active-tab{
     display: block;
+}
+.service{
+    padding: 50px 0;
+}
+.myservice{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    gap: 40px;
+    margin-top: 50px;
+
 }
