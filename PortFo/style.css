@@ -315,4 +315,28 @@ nav ul li a:hover::after{
 .btn2{
     display: inline-block;
     background: #ff004f;
+
+}
+.col-right form{
+    width: 100%;
+}
+form input, textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: none;
+    background: #262626;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    outline: none;
+
+}
+form .btn2{
+    padding: 14px 60px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
 }
