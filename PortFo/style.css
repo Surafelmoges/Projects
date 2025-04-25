@@ -22,6 +22,7 @@ body{
 }
 .log{
     width: 145px;
+    
 }
 nav{
     display: flex;
@@ -320,7 +321,7 @@ nav ul li a:hover::after{
 .col-right form{
     width: 100%;
 }
-form input, textarea{
+form input, form textarea{
     width: 100%;
     padding: 15px;
     margin: 15px 0;
@@ -339,4 +340,16 @@ form .btn2{
     font-size: 18px;
     font-weight: 300;
     cursor: pointer;
+}
+.copyRight{
+    width: 100%;
+    background: #262626;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.copyRight i{
+   color: #ff004a;
+   
 }
